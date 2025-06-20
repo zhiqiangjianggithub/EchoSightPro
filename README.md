@@ -48,4 +48,39 @@ __EchoSight Pro__ is the complete upgrade, rebuild version of its predecessor, a
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product is strictly forbidden. 
 
 
+## Functionality Guidance ##
+__EchoSightPro__ provides many useful functions for research and evaluation.
+
+### 1.Basic BF with MLA ###
+
+
+### 2.RTB BF with MLA ###
+
+
+### 3.RTB BF with MLA and Synthetic ###
+
+
+
+
+
+
+## Performance Evaluation ##
+
+__EchoSightPro__ actual performance can variant depends on your settings and relies on your hardware. The following evaluation is based on my testing hardware. 
+
+| CPU    | MEMORY     | GPU   | OS |
+|:------:|:------:|:------:|:------:|
+|Intel 12th I5-12400|16GB|3060Ti,UHD|WIN 10|
+
+Latest testing cases
+
+
+## Platform ##
+
+The __EchoSightPro__ is aviable on windows platform only. 
+
+PS: It is all written by C++ (mostly ISO20, partially ISO23) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
+
+
 
