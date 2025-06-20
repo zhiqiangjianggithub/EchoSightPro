@@ -86,7 +86,7 @@ __EchoSightPro__ actual performance can variant depends on your settings and rel
 
 | CPU    | MEMORY     | GPU   | OS |
 |:------:|:------:|:------:|:------:|
-|Intel 12th I5-12400|16GB|3060Ti,UHD|WIN 10|
+|Intel 12th I5-12400|16GB|3060Ti,UHD730|WIN 10|
 
 Latest testing cases
 
