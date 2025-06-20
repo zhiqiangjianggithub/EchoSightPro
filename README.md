@@ -65,8 +65,9 @@ __EchoSightPro__ provides many useful functions for research and evaluation.
 
 5.Probe type selection
 
+6.SNR control for data
 
-6.System Extreme Pressure Control
+7.System Extreme Pressure Control
 
 
 For more information, please check the __EchoSightPro User Guidance__ mannual.
