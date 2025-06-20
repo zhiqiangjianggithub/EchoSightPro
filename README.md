@@ -20,7 +20,7 @@ To know the existing research platform check the link below
 -KWave    http://www.k-wave.org/index.php
 
 ## Predecessor History ##
-Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time, and easy ,flexible to extend different modes. Old EchoSight real time running screen shot below
+Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time, and easy ,flexible to extend different modes. Old EchoSight real time running screen shot, plz click the image below(ignore the vertical artifacts, which caused by github brower display, they do not exist at all)
 
 <p align="center">
   <img src="images/echosight%20old%20linear%20steer.gif" />
@@ -51,13 +51,28 @@ Attention, personalized license is on this software. Check license declare for d
 ## Functionality Guidance ##
 __EchoSightPro__ provides many useful functions for research and evaluation.
 
-### 1.Basic BF with MLA ###
+1.Basic BF with MLA
 
 
-### 2.RTB BF with MLA ###
+2.RTB BF with MLA
 
 
-### 3.RTB BF with MLA and Synthetic ###
+3.RTB BF with MLA and Synthetic
+
+
+4.Mutiple Angle Scanning
+
+
+5.Probe type selection
+
+
+6.System Extreme Pressure Control
+
+
+For more information, please check the __EchoSightPro User Guidance__ mannual.
+
+
+
 
 
 
