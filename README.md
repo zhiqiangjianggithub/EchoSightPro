@@ -20,16 +20,32 @@ To know the existing research platform check the link below
 -KWave    http://www.k-wave.org/index.php
 
 ## Predecessor History ##
-Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time. Old EchoSight running screen shot below
+Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time, and easy ,flexible to extend different modes. Old EchoSight real time running screen shot below
 
 <p align="center">
   <img src="images/echosight%20old%20linear%20steer.gif" />
 </p>
 
 
-If you have any intesests on its predecessor, you check the link below for development log
+If you have any intesests on its predecessor, you check the link below for previous development log
 
 https://blog.csdn.net/gamer_gerald/article/details/135611461?spm=1001.2014.3001.5501
 
 
-__EchoSight Pro__ is the complete upgrade, rebuild version of its predecessor, actually I rewrote all the codes again
+## EchoSight Pro Advantage ##
+__EchoSight Pro__ is the complete upgrade, rebuild version of its predecessor, actually I rewrote all the codes from scratch again. The whole engineering architecture is refined for __EchoSight Pro__, it will surpass old EchoSight completely.
+
+-Efficiency
+
+-Flexibility
+
+-Ease of use
+
+
+
+## License ##
+
+Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product is strictly forbidden. 
+
+
+
