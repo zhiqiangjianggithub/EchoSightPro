@@ -19,20 +19,22 @@ To know the existing research platform check the link below
 
 -KWave    http://www.k-wave.org/index.php
 
-## Predecessor History ##
-Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time, and easy ,flexible to extend different modes. Old EchoSight real time running screen shot, plz click the image below(ignore the vertical artifacts, which caused by github brower display, they do not exist at all)
+## Predecessor EchoSight History ##
+Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming already, and can work on CPU only and CPU + GPU case both, support linear and phase probes, supporting steering for compounding, all of them can be in real time, and easy ,flexible to extend different modes. Old EchoSight real time running screen shot, plz check the images below(if U see any grid artifact, plz zoom in/out.it is cause by your browser display scale)
 
 <p align="center">
   <img src="images/echosight%20old%20linear%20steer.gif" />
 </p>
-
+<p align="center">
+  <img src="images//echosight%20old%20phase.jpg" />
+</p>
 
 If you have any intesests on its predecessor, you check the link below for previous development log
 
 https://blog.csdn.net/gamer_gerald/article/details/135611461?spm=1001.2014.3001.5501
 
 
-## EchoSight Pro Advantage ##
+## New EchoSight Pro Advantage ##
 __EchoSight Pro__ is the complete upgrade, rebuild version of its predecessor, actually I rewrote all the codes from scratch again. The whole engineering architecture is refined for __EchoSight Pro__, it will surpass old EchoSight completely.
 
 -Efficiency
