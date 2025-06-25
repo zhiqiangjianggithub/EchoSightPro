@@ -105,7 +105,7 @@ __EchoSightPro__ actual performance can variant depends on your settings and rel
 
 | CPU    | MEMORY     | GPU   | OS |
 |:------:|:------:|:------:|:------:|
-|Intel 12th I5-12400|16GB|3060Ti,UHD730|WIN 10|
+|Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)<br>UHD730|WIN 10|
 
 Latest testing cases
 
@@ -114,7 +114,7 @@ Latest testing cases
 
 The __EchoSightPro__ is aviable on windows platform only. 
 
-PS: It is all written by C++ (mostly ISO20, partially ISO23) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
 
 
 
