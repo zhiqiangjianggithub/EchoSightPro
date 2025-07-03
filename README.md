@@ -20,9 +20,9 @@ To know the existing research platform check the link below
 -KWave    http://www.k-wave.org/index.php
 
 
-What makes __EchoSight Pro__  unique is, it can work in __real time__. Due to the extrodinary engineering architecture and implementation, __EchoSight Pro__ can run on your normal computer __with GPU__ or even __without GPU__ both. 
+What makes __EchoSight Pro__  can work in __real time__. Due to its design target, __EchoSight Pro__ can run on your normal computer __with GPU__ or even __without GPU__ both. 
 
-More than that, __EchoSight Pro__ support __Recursive Transmit Beamformation__, __Synthetic Aperture__, __Multiple Line Aquisition__,  __Steering__ scanning, it can support all of those features, while working in real time. 
+__EchoSight Pro__ support __Recursive Transmit Beamformation__, __Synthetic Aperture__, __Multiple Line Aquisition__,  __Steering__ scanning, it can support all of those features, while working in __Real Time__. 
 
 It achieves high quality commercial level, no matter from ultrasound theoritical perspective or from engineering design point of view.
 
@@ -44,23 +44,6 @@ If you have any intesests on its predecessor, you check the link below for previ
 https://blog.csdn.net/gamer_gerald/article/details/135611461?spm=1001.2014.3001.5501
 
 
-##  EchoSight Pro Design Target ##
-The brand new __EchoSight Pro__ is the complete upgrade, rebuild, redesigned version of its predecessor, actually I rewrote all the codes from scratch once again. The whole engineering architecture is refined for __EchoSight Pro__, it will surpass old EchoSight completely. Its design target is focus on
-
--__Efficiency__
-Not targeting on working in real time only, it aims at working super fast and smooth; It releases the full computation of your exsiting hardware, no matter it is a powerful work station or a normal personal computer, by my redesigning on high level and lowe level. It will surpass old EchoSight  completely.(Sorry baby, U become my new baby's background benchmark)
-
--__Flexibility__
-It can work and adjust easily beyond your imagination;
-
--__Super Hybride__
-EchoSight Pro not only works on CPU only mode or GPU only mode(which I call it single power mode), but also can work on CPU plus GPU hybride mode(dual power mode). In hybride mode configuration, it cooperating CPU and GPU on beamformation simultaneously, dynamically and automatically adjust computation work load in real time in order to obtain the best performance on your computer, on which ultrasound images are formed by your CPU and GPU both.
-What is even cooler, hybride mode is designed to privde CPU plus embed GPU plus independent GPU working all together(trinity power) for beamformation, 
-
-
--__Ease of use__
-
-
 
 ## License ##
 
@@ -70,24 +53,14 @@ Attention, personalized license is on this software. Check license declare for d
 ## Functionality Guidance ##
 __EchoSightPro__ provides many useful functions for research and evaluation.
 
-1.Basic BF with MLA
 
+Pure Software based Beam Forming
 
-2.RTB BF with MLA
+Multiple Line Acqusition Beam Forming
 
+Recursive Transmit Beam Forming
 
-3.RTB BF with MLA and Synthetic
-
-
-4.Mutiple Angle Scanning
-
-
-5.Probe type selection
-
-6.SNR control for data
-
-7.System Extreme Pressure Control
-
+Synthetic Aperture Beam Forming
 
 For more information, please check the __EchoSightPro User Guidance__ mannual.
 
@@ -107,7 +80,18 @@ __EchoSightPro__ actual performance can variant depends on your settings and rel
 |:------:|:------:|:------:|:------:|
 |Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)<br>UHD730|WIN 10|
 
-Latest testing cases
+version 0.0.3 testing summary
+
+| EchoSight-Pro v0.0.3 CPU Only Testing Summary  |
+|:------:|
+
+| MLA    | SYN     | Transfer Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
+|:------:|:------:|:------:|:------:|
+|1|	1|6.5|6.5|
+|4|	4|2.6|10.4|
+|8|	8|1.4|11.2|
+|16|16|0.79|12.6|
+|24|24|0.55|13.2|
 
 
 ## Platform ##
