@@ -80,18 +80,26 @@ __EchoSightPro__ actual performance can variant depends on your settings and rel
 |:------:|:------:|:------:|:------:|
 |Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)<br>UHD730|WIN 10|
 
-version 0.0.3 testing summary
 
-| EchoSight-Pro v0.0.3 CPU Only Testing Summary  |
-|:------:|
+version 0.1.0 testing summary
+
+__EchoSight-Pro v0.1.0 CPU Only Testing Summary__
 
 | MLA    | SYN     | Transfer Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
 |:------:|:------:|:------:|:------:|
-|1|	1|6.5|6.5|
-|4|	4|2.6|10.4|
-|8|	8|1.4|11.2|
-|16|16|0.79|12.6|
-|24|24|0.55|13.2|
+|1|	1|6.8|6.8|
+|4|	4|3.1|12.5|
+|8|	8|1.7|13.6|
+|16|16|1.0|16.0|
+|24|24|0.58|13.9|
+
+
+
+__v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
+
+<p align="center">
+  <img src="images/comparison.jpg" />
+</p>
 
 
 ## Platform ##
