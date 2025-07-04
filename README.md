@@ -88,6 +88,7 @@ __EchoSight-Pro v0.1.0 CPU Only Testing Summary__
 | MLA    | SYN     | Transfer Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
 |:------:|:------:|:------:|:------:|
 |1|	1|6.8|6.8|
+|2|	2|4.8|9.6|
 |4|	4|3.1|12.5|
 |8|	8|1.7|13.6|
 |16|16|1.0|16.0|
