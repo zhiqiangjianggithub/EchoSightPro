@@ -74,7 +74,7 @@ For more information, please check the __EchoSightPro User Guidance__ mannual.
 
 ## Performance Evaluation ##
 
-__EchoSightPro__ actual performance can variant depends on your settings and relies on your hardware. The following evaluation is based on my testing hardware. 
+__EchoSightPro__ actual performance will vary depends on your computer hardware. The following evaluation is based on my testing hardware. 
 
 | CPU    | MEMORY     | GPU   | OS |
 |:------:|:------:|:------:|:------:|
@@ -83,18 +83,23 @@ __EchoSightPro__ actual performance can variant depends on your settings and rel
 
 version 0.1.0 testing summary
 
-__EchoSight-Pro v0.1.0 CPU Only Testing Summary__
+__EchoSight-Pro v0.1.1 CPU Only Testing Summary__
 
-| MLA    | SYN     | Transfer Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
+| MLA    | SYN     | Full Chain Data Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
 |:------:|:------:|:------:|:------:|
-|1|	1|6.8|6.8|
-|2|	2|4.8|9.6|
-|4|	4|3.1|12.5|
-|8|	8|1.7|13.6|
-|16|16|1.0|16.0|
-|24|24|0.58|13.9|
+|1|	1|7.7|7.7|
+|2|	2|4.6|9.2|
+|4|	4|2.9|11.6|
+|8|	8|1.56|12.5|
+|16|16|0.78|12.4|
+|24|24|0.45|10.8|
 
 
+__Full Chain Data Rate__
+Full chain data rate is the core indicator for software beamforming-based ultrasound scanner.
+The basic qualification line should be no less than 5.12 GB/Sec for a 128-channel system.
+
+v0.1.1 CPU mode only is only qualified for 1MLA real-time 128-channel scanner yet on my computer hardware
 
 __v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
