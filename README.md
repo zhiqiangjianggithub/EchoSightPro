@@ -96,10 +96,11 @@ __EchoSight-Pro v0.1.1 CPU Only Testing Summary__
 
 
 __Full Chain Data Rate__
+
 Full chain data rate is the core indicator for software beamforming-based ultrasound scanner.
 The basic qualification line should be no less than 5.12 GB/Sec for a 128-channel system.
 
-v0.1.1 CPU mode only is only qualified for 1MLA real-time 128-channel scanner yet on my computer hardware
+v0.1.1 CPU mode is only qualified for 1MLA real-time 128-channel scanner yet on my computer hardware
 
 __v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
