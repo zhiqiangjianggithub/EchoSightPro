@@ -5,7 +5,7 @@
 </p>
 
 ## Overview ##
-__EchoSight Pro__ is an ultrasound software engine, which I developed by myself for fun, using my spare time. Compared to exsiting ultrasound research platform for public usage, such as Field II, Focus, KWAVE, MUST and ect focusing on sound field simulation, __EchoSight Pro__ is of different goal. 
+__EchoSight Pro__ is a software beamforming based ultrasound framework, which I developed on my own for fun. Compared to exsiting ultrasound research platform for public usage, such as Field II, Focus, KWAVE, MUST and ect focusing on sound field simulation, __EchoSight Pro__ is of different goal. 
 
 It is an efficiency oriented, engineering based and product level architectured for handling raw ultrasound channel signal data, no matter those data is from simulation, real data captured from machine. It can be used by cooprating with those research platform for acadamic research or advanced prototype machine evaluation. 
 
