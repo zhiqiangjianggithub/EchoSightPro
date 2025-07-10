@@ -81,26 +81,28 @@ __EchoSightPro__ actual performance will vary depends on your computer hardware.
 |Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)|WIN 10|
 
 
-version 0.1.0 testing summary
+version 0.1.2 testing summary
 
-__EchoSight-Pro v0.1.1 CPU Only Testing Summary__
+__EchoSight-Pro v0.1.2 CPU Only Testing Summary__
 
 | MLA    | SYN     | Full Chain Data Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
 |:------:|:------:|:------:|:------:|
-|1|	1|7.7|7.7|
-|2|	2|4.6|9.2|
-|4|	4|2.9|11.6|
-|8|	8|1.56|12.5|
-|16|16|0.78|12.4|
-|24|24|0.45|10.8|
+|1|	1|8.42|8.42 |
+|2|	2|6.04|12.08|
+|4|	4|3.99|15.96|
+|8|	8|2.37|18.96|
+|16|16|1.26|20.16|
+|24|24|0.86|20.64|
+|32|32|0.50|18.00|
 
 
 __Full Chain Data Rate__
 
-Full chain data rate is the core indicator for software beamforming-based ultrasound scanner.
-The basic qualification line should be no less than 5.12 GB/Sec for a 128-channel system.
+Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner.
 
-v0.1.1 CPU mode is only qualified for 1MLA real-time 128-channel scanner yet on my computer hardware
+v0.1.2 CPU mode is only qualified for 2MLA real-time 128-channel scanner yet on my computer hardware
+
+v0.1.2 CPU mode is only qualified for 4MLA real-time 64-channel scanner yet on my computer hardware
 
 __v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
