@@ -113,14 +113,14 @@ __v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 </p>
 
 
-__Down Load and Usage__
+## Down Load and Usage ##
 
 For the version before 0.2.0, down load the zip file in the folder, and channel data is in the package already.
 
-For the version 0.2.0 or later, software and channel data are separated. 
+1. For the version 0.2.0 or later, software and channel data are separated. 
 The channel data can be obtained at https://github.com/zhiqiangjianggithub/EchoSightPro/tree/main/IQ%20channel%20data%20for%20EchoSight-Pro
 
-Please put the data in software folder "Settings\data", before running the EchoSight-Pro
+2. Please put the data in software folder "Settings\data", before running the EchoSight-Pro
 
 You can capture and real data for EchoSight-Pro, please refer the __User Guidance__ document
 
