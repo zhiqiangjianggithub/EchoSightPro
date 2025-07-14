@@ -80,29 +80,31 @@ __EchoSightPro__ actual performance will vary depends on your computer hardware.
 |:------:|:------:|:------:|:------:|
 |Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)|WIN 10|
 
+In version 0.2.0, two editions are provided.
 
-version 0.1.2 testing summary
+Flash version targets extreme efficiency (with some risks, might fail in future development);
 
-__EchoSight-Pro v0.1.2 CPU Only Testing Summary__
+version 0.2.0 CPU only testing summary;
 
-| MLA    | SYN     | Full Chain Data Rate (GB/Sec)   | 	Data Process Rate (GB/Sec) |
+Standard version weights certainty in engineering more;
+
+__EchoSight-Pro v0.2.0 CPU Only Testing Summary__
+
+| MLA    | SYN     |Standard Edition Full Chain Data Rate (GB/Sec)|Flash Edition Full Chain Data Rate (GB/Sec)|
 |:------:|:------:|:------:|:------:|
-|1|	1|8.42|8.42 |
-|2|	2|6.04|12.08|
-|4|	4|3.99|15.96|
-|8|	8|2.37|18.96|
-|16|16|1.26|20.16|
-|24|24|0.86|20.64|
-|32|32|0.50|18.00|
+|1|	1|8.61|19.54|
+|2|	2|6.15|9.91|
+|4|	4|4.02|5.54|
+|8|	8|2.37|2.80|
+|16|16|1.27|1.40|
+|24|24|0.86|0.89|
+|32|32|0.50|0.64|
 
 
 __Full Chain Data Rate__
 
-Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner.
+Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner. It describes how much data it can handle under specific MLA/SYN settings;
 
-v0.1.2 CPU mode is only qualified for 2MLA real-time 128-channel scanner yet on my computer hardware
-
-v0.1.2 CPU mode is only qualified for 4MLA real-time 64-channel scanner yet on my computer hardware
 
 __v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
