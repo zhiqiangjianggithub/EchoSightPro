@@ -122,7 +122,7 @@ The channel data can be obtained at https://github.com/zhiqiangjianggithub/EchoS
 
 2. Please put the data in software folder "Settings\data", before running the EchoSight-Pro
 
-You can capture and real data for EchoSight-Pro, please refer the __User Guidance__ document
+You can capture real data for EchoSight-Pro, please refer the __User Guidance__ document
 
 
 ## Platform ##
