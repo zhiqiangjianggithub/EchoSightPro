@@ -72,33 +72,33 @@ For more information, please check the __EchoSightPro User Guidance__ mannual.
 
 
 
+  
 ## Performance Evaluation ##
 
 __EchoSightPro__ actual performance will vary depends on your computer hardware. The following evaluation is based on my testing hardware. 
 
-| CPU    | MEMORY     | GPU   | OS |
-|:------:|:------:|:------:|:------:|
-|Intel 12th i5-12400|16GB(2400MHz)|3060Ti(8GB)|WIN 10|
 
-In version 0.2.0, two editions are provided.
+| CPU    | MEMORY     | Integrated GPU   |Discrete GPU | OS |
+|:------:|:------:|:------:|:------:|:------:|
+|Intel 12th i5-12400|16GB(2400MHz)|Intel UHD730 |Nvidia 3060Ti 8GB|WIN 10|
 
-Flash version targets extreme efficiency (with some risks, might fail in future development);
 
-version 0.2.0 CPU only testing summary;
 
-Standard version weights certainty in engineering more;
+__EchoSight-Pro v0.2.1 CPU Only Testing Summary__
 
-__EchoSight-Pro v0.2.0 CPU Only Testing Summary__
+| MLA    | SYN     |Full Chain Data Rate (GB/Sec)|
+|:------:|:------:|:------:|
+|1|	1|22.46|
+|2|	2|12.09|
+|4|	4|6.51|
+|6|	6|4.23|
+|8|	8|3.24|
+|10|10|2.58|
+|16|16|1.62|
+|24|24|1.02|
+|32|32|0.82|
+</div>
 
-| MLA    | SYN     |Standard Edition Full Chain Data Rate (GB/Sec)|Flash Edition Full Chain Data Rate (GB/Sec)|
-|:------:|:------:|:------:|:------:|
-|1|	1|8.61|19.54|
-|2|	2|6.15|9.91|
-|4|	4|4.02|5.54|
-|8|	8|2.37|2.80|
-|16|16|1.27|1.40|
-|24|24|0.86|0.89|
-|32|32|0.50|0.64|
 
 
 __Full Chain Data Rate__
