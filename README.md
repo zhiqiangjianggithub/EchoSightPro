@@ -78,13 +78,13 @@ For more information, please check the __EchoSightPro User Guidance__ mannual.
 __EchoSightPro__ actual performance will vary depends on your computer hardware. The following evaluation is based on my testing hardware. 
 
 
-| CPU    | MEMORY     | Integrated GPU   |Discrete GPU | OS |
-|:------:|:------:|:------:|:------:|:------:|
-|Intel 12th i5-12400|16GB(2400MHz)|Intel UHD730 |Nvidia 3060Ti 8GB|WIN 10|
+| CPU    | MEMORY | Integrated GPU | OS |
+|:------:|:------:|:------:|:------:|
+|Intel 12th i5-12400|16GB(2400MHz)|Intel UHD730 |WIN 10|
 
 
 
-__EchoSight-Pro v0.2.1 CPU Only Testing Summary__
+__EchoSight-Pro v0.3.0 Performance Testing Summary__
 
 | MLA    | SYN     |Full Chain Data Rate (GB/Sec)|
 |:------:|:------:|:------:|
@@ -130,6 +130,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
