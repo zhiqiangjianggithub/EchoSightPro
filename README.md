@@ -1,4 +1,4 @@
-# EchoSightPro #
+![monitor](https://github.com/user-attachments/assets/bbd51034-f1c2-4d3b-833f-cd3f62f6465f)# EchoSightPro #
 
 <p align="center">
   <img src="images/logo.jpg" />
@@ -87,7 +87,7 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.4.0 Performance Testing Summary__(Unit: Giga Byte per Second)
+__EchoSight-Pro v0.4.0 Performance Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
@@ -100,12 +100,37 @@ __Full Chain Data Rate__
 
 Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner. It describes how much data it can handle under specific MLA/SYN settings;
 
+__Integrated GPU Setting Status__
 
-__v0.1.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
+
+In Integrated GPU setting status, the system runs in real time with small memory footprint and pretty low CPU loading 
+<p align="center">
+  <img src="images/monitor.JPG" />
+</p>
+
+## Image Output ##
+
+Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together, the output is generated.  
+
+
+__v0.4.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
 <p align="center">
   <img src="images/comparison.jpg" />
 </p>
+
+
+
+Both of CPU setting and Integrated GPU setting provide the same output.
+
+
+__CPU setting output(Left) Integrated GPU setting output(Right)__
+
+
+<p align="center">
+  <img src="images/CPU GPU comparison.JPG" />
+</p>
+
 
 
 ## Down Load and Usage ##
@@ -125,6 +150,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
