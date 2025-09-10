@@ -1,4 +1,4 @@
-![monitor](https://github.com/user-attachments/assets/bbd51034-f1c2-4d3b-833f-cd3f62f6465f)# EchoSightPro #
+# EchoSightPro #
 
 <p align="center">
   <img src="images/logo.jpg" />
@@ -100,10 +100,13 @@ __Full Chain Data Rate__
 
 Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner. It describes how much data it can handle under specific MLA/SYN settings;
 
+
+
 __Integrated GPU Setting Status__
 
 
-In Integrated GPU setting status, the system runs in real time with small memory footprint and pretty low CPU loading 
+In Integrated GPU setting status, the system runs in real time with small memory footprint， pretty low CPU loading and __NO__ discrete GPU needed at all.
+
 <p align="center">
   <img src="images/monitor.JPG" />
 </p>
@@ -150,6 +153,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
