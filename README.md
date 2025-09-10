@@ -87,7 +87,7 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.4.0 Performance Testing Summary(Unit: Giga Byte per Second)__
+__EchoSight-Pro v0.4.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
@@ -113,7 +113,7 @@ In Integrated GPU setting status, the system runs in real time with small memory
 
 ## Image Output ##
 
-Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together, the output is generated.  
+Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together. After all the steps(plus some basic post BF steps)the image output is generated.  
 
 
 __v0.4.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
@@ -124,7 +124,7 @@ __v0.4.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
 
 
-Both of CPU setting and Integrated GPU setting provide the same output.
+Both of CPU setting and Integrated GPU setting provide the same output(some quantization errors may exist).
 
 
 __CPU setting output(Left) Integrated GPU setting output(Right)__
@@ -153,6 +153,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
