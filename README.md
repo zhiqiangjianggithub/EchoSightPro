@@ -1,3 +1,5 @@
+__Latest version 0.5.0__
+
 # EchoSightPro #
 
 <p align="center">
@@ -111,6 +113,24 @@ In Integrated GPU setting status, the system runs in real time with small memory
   <img src="images/monitor.JPG" />
 </p>
 
+
+## Hardware Check ##
+
+__Change hardware settings__
+
+The EchoSight-Pro support CPU based computaion and integrated GPU computation both, you can change the setting in the configuration file "Settings\task\EchoSightProChain.xml"
+
+<p align="center">
+  <img src="images/configuration.jpg" />
+</p>
+
+if you want it work with pure CPU, make the "ACTIVE TASK CHAIN" configured as __CPU_CHAIN__, want to make it work on your integrated GPU, please set it as __CL_CHAIN__
+
+
+
+
+
+
 ## Image Output ##
 
 Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together. After all the steps(plus some basic post BF steps)the image output is generated.  
@@ -153,6 +173,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
