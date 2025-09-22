@@ -114,6 +114,7 @@ In Integrated GPU setting status, the system runs in real time with small memory
 </p>
 
 
+
 ## Hardware Check ##
 
 __Change hardware settings__
@@ -126,9 +127,20 @@ The EchoSight-Pro support CPU based computaion and integrated GPU computation bo
 
 if you want it work with pure CPU, make the "ACTIVE TASK CHAIN" configured as __CPU_CHAIN__, want to make it work on your integrated GPU, please set it as __CL_CHAIN__
 
+You can confirm your settings from command window information or your task manager loading as below
 
+<p align="center">
+  <img src="images/HardwareCheck.jpg" />
+</p>
 
+The previous performance testing is based on Intel i5-12400(with an UHD730 integrated GPU embeded in), it is an extremely weak hardware (sorry Intel, that's the fact).
+Especially its integrated GPU is far behind main stream discreted GPU.
 
+<p align="center">
+  <img src="images/GPU performance 2.jpg" />
+</p>
+
+The target of EchoSight-Pro is NOT to provide output with strong hardware, but to maximize efficiency with hardware as weak as possible. 
 
 
 ## Image Output ##
@@ -173,6 +185,7 @@ You can capture real data for EchoSight-Pro, please refer the __User Guidance__ 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
+
 
 
 
