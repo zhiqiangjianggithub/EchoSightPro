@@ -6,7 +6,7 @@ __Latest version 0.5.0__
   <img src="images/logo.jpg" />
 </p>
 
-## Overview ##
+## 1. Overview ##
 __EchoSight Pro__ is a software beamforming based ultrasound framework, which I developed on my own for fun. Compared to exsiting ultrasound research platform for public usage, such as Field II, Focus, KWAVE, MUST and ect focusing on sound field simulation, __EchoSight Pro__ is of different goal. 
 
 It is an efficiency oriented, engineering based and product level architectured for handling raw ultrasound channel signal data, no matter those data is from simulation, real data captured from machine. It can be used by cooprating with those research platform for acadamic research or advanced prototype machine evaluation. 
@@ -29,7 +29,7 @@ __EchoSight Pro__ support __Recursive Transmit Beamformation__, __Synthetic Aper
 It achieves high quality commercial level, no matter from ultrasound theoritical perspective or from engineering design point of view.
 
 
-## Predecessor EchoSight History ##
+## 2. Predecessor EchoSight History ##
 Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming, Steering scan already, and can work on CPU mode,  and GPU mode. 
 
 Old EchoSight real time running screen shot, plz check the images below(if U see any grid artifact, which caused by your browser display,  plz zoom in/out.)
@@ -47,12 +47,8 @@ https://blog.csdn.net/gamer_gerald/article/details/135611461?spm=1001.2014.3001.
 
 
 
-## License ##
 
-Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product is strictly forbidden. 
-
-
-## Functionality Guidance ##
+## 3. Functionality Guidance ##
 __EchoSightPro__ provides many useful functions for research and evaluation.
 
 
@@ -75,7 +71,7 @@ For more information, please check the __EchoSightPro User Guidance__ mannual.
 
 
   
-## Performance Evaluation ##
+## 4. Performance Evaluation ##
 
 __EchoSightPro__ actual performance will vary depends on your computer hardware. The following evaluation is based on my testing hardware. 
 
@@ -113,9 +109,18 @@ In Integrated GPU setting status, the system runs in real time with small memory
   <img src="images/monitor.JPG" />
 </p>
 
+The performance testing is based on Intel i5-12400(with an UHD730 integrated GPU embeded in), it is an extremely weak hardware (sorry Intel, that's the fact).
+Especially its integrated GPU is far behind main stream discreted GPU.
+
+<p align="center">
+  <img src="images/GPU performance 2.jpg" />
+</p>
+
+The target of EchoSight-Pro is NOT to provide output with strong hardware, but to maximize __efficiency__ with hardware as weak as possible, through algorithm optimization and engineering architecture design
 
 
-## Hardware Check ##
+
+## 5. Hardware Check ##
 
 __Change hardware settings__
 
@@ -127,23 +132,17 @@ The EchoSight-Pro support CPU based computaion and integrated GPU computation bo
 
 if you want it work with pure CPU, make the "ACTIVE TASK CHAIN" configured as __CPU_CHAIN__, want to make it work on your integrated GPU, please set it as __CL_CHAIN__
 
+__Confirm hardware settings__
+
 You can confirm your settings from command window information or your task manager loading as below
 
 <p align="center">
   <img src="images/HardwareCheck.jpg" />
 </p>
 
-The previous performance testing is based on Intel i5-12400(with an UHD730 integrated GPU embeded in), it is an extremely weak hardware (sorry Intel, that's the fact).
-Especially its integrated GPU is far behind main stream discreted GPU.
-
-<p align="center">
-  <img src="images/GPU performance 2.jpg" />
-</p>
-
-The target of EchoSight-Pro is NOT to provide output with strong hardware, but to maximize efficiency with hardware as weak as possible. 
 
 
-## Image Output ##
+## 6. Image Output ##
 
 Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together. After all the steps(plus some basic post BF steps)the image output is generated.  
 
@@ -167,8 +166,17 @@ __CPU setting output(Left) Integrated GPU setting output(Right)__
 </p>
 
 
+__Carotid image using vivo data__
 
-## Down Load and Usage ##
+
+<p align="center">
+  <img src="images/CAROTID.JPG" />
+</p>
+
+
+
+
+## 7. Down Load and Usage ##
 
 For the version before 0.2.0, down load the zip file in the folder, and channel data is in the package already.
 
@@ -180,13 +188,18 @@ The channel data can be obtained at https://github.com/zhiqiangjianggithub/EchoS
 You can capture real data for EchoSight-Pro, please refer the __User Guidance__ document
 
 
-## Platform ##
+## 8. Platform ##
 
 The __EchoSightPro__ is aviable on windows platform only. 
 
 PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, which makes it completely possible to transplant to other OS. But that is not my intersts by now.
 
 
+
+
+## 9. License ##
+
+Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product is strictly forbidden. 
 
 
 
