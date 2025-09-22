@@ -98,6 +98,9 @@ __Full Chain Data Rate__
 
 Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner. It describes how much data it can handle under specific MLA/SYN settings;
 
+Currently, since version 0.5.0, with the hardware(__without__ discrete GPU), EchoSight-Pro is the fastest framework for CPU and integrated GPU setting both with synthetic, RTB, MLA supported.
+
+(If not, please provide information to echosight_pro@126.com, I will correct my description mistakes.)
 
 
 __Integrated GPU Setting Status__
@@ -109,7 +112,7 @@ In Integrated GPU setting status, the system runs in real time with small memory
   <img src="images/monitor.JPG" />
 </p>
 
-The performance testing is based on Intel i5-12400(with an UHD730 integrated GPU embeded in), it is an extremely weak hardware (sorry Intel, that's the fact).
+The performance testing is based on Intel i5-12400(with an UHD730 integrated GPU built in), it is an extremely weak hardware (sorry Intel, that's the fact).
 Especially its integrated GPU is far behind main stream discreted GPU.
 
 <p align="center">
@@ -201,16 +204,11 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 
 
 
-## 9. License ##
+## 9. License and Version  ##
 
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
-
-
-## 10. Have a good day ##
-
-
-
+The version update is __random__, it is an interets based project developed completely on my own in my spare time.
 
 
 
