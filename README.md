@@ -178,14 +178,18 @@ __Carotid image using vivo data__
 
 ## 7. Down Load and Usage ##
 
-For the version before 0.2.0, down load the zip file in the folder, and channel data is in the package already.
+To get the full software package and use 
 
-1. For the version 0.2.0 or later, software and channel data are separated. 
-The channel data can be obtained at https://github.com/zhiqiangjianggithub/EchoSightPro/tree/main/IQ%20channel%20data%20for%20EchoSight-Pro
+1. go to folder of the corresponding version(download the latest version is suggested)
+2. down load all the zip files(due to 24MB limits, package might divded into 2 or 3 files)
+3. unzip the *.zip file, you will get a folder named "EchoSightPro_version_X.X.X"
+4. click the Start EchoSight-Pro.bat file to run the EchoSight-Pro
 
-2. Please put the data in software folder "Settings\data", before running the EchoSight-Pro
+Most of version package contains data already, but some versions' package may not. 
 
-You can capture real data for EchoSight-Pro, please refer the __User Guidance__ document
+In such case, please download the data in "IQ channel data for EchoSight-Pro" folder.
+
+Highly suggest you refer the document __EchoSight-Pro User Guidance.pdf__ 
 
 
 ## 8. Platform ##
@@ -199,10 +203,11 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 
 ## 9. License ##
 
-Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product is strictly forbidden. 
+Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 
 
+## 10. Have a good day ##
 
 
 
