@@ -87,11 +87,11 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.4.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
+__EchoSight-Pro v0.5.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
-  <img src="images/summary_0_4_0.JPG" />
+  <img src="images/summary_0_5_0.JPG" />
 </p>
 
 
@@ -116,7 +116,7 @@ In Integrated GPU setting status, the system runs in real time with small memory
 Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together. After all the steps(plus some basic post BF steps)the image output is generated.  
 
 
-__v0.4.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
+__v0.5.0 image MLA1/SYN1(Left) MLA24/SYN24(Right)__
 
 <p align="center">
   <img src="images/comparison.jpg" />
