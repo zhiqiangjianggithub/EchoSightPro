@@ -192,7 +192,12 @@ Most of version package contains data already, but some versions' package may no
 
 In such case, please download the data in "IQ channel data for EchoSight-Pro" folder.
 
-Highly suggest you refer the document __EchoSight-Pro User Guidance.pdf__ 
+Highly suggest you refer the document in the software package __EchoSight-Pro User Guidance.pdf__ 
+
+<p align="center">
+  <img src="images/DOCUMENT.JPG" />
+</p>
+
 
 
 ## 8. Platform ##
@@ -209,6 +214,7 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
