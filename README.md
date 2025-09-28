@@ -1,4 +1,4 @@
-__Latest version 0.5.0__
+__Latest version 0.5.1__
 
 # EchoSightPro #
 
@@ -85,20 +85,22 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.5.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
+__EchoSight-Pro v0.5.1 Data Rate Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
-  <img src="images/summary_0_5_0.JPG" />
+  <img src="images/summary_0_5_1.JPG" />
 </p>
 
 
+__Notice__: when data rate is too high (like above 20GB/sec), the data rate is becoming unstable from time to time. I do NOT want to pick good data to make it beautiful or reasonable. I just 
+record what is monitored. 
 
 __Full Chain Data Rate__
 
 Full chain data rate is the __Core Indicator__ for software beamforming-based ultrasound scanner. It describes how much data it can handle under specific MLA/SYN settings;
 
-Currently, since version 0.5.0, given the same hardware(__without__ discrete GPU), EchoSight-Pro is the fastest framework for CPU and integrated GPU setting both with synthetic, RTB, MLA supported.
+Given the same hardware(__without__ discrete GPU), EchoSight-Pro is the world's fastest framework for __CPU__ and __integrated GPU__ setting both with synthetic, RTB, MLA supported.
 
 (If not, please provide information to echosight_pro@126.com, I will correct my description mistakes.)
 
@@ -214,6 +216,7 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
