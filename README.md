@@ -130,6 +130,8 @@ The target of EchoSight-Pro is NOT to provide output with strong hardware, but t
 Since version 0.5.1, a research interface module is added in for personalized academic research needs. The research module is provided with source codes together, you can do your personalized work through it.
 Through the interface you can work on the data at different stage, including IQ data after RTB, synthetic or gray scale image data.
 
+For example, if you want to “right half image gray scale value to be reverted”. You need the following 3 steps to make your job done.
+
 __Step 1:Open Research Project Source Codes__
 <p align="center">
   <img src="images/research.JPG" />
@@ -138,6 +140,17 @@ __Step 1:Open Research Project Source Codes__
 __Step 2:Modify the Codes based on Your Needs__
 <p align="center">
   <img src="images/codes.JPG" />
+</p>
+
+__Step 3:Build the Project to Get the DLL file and copy it to bin folder, replace the existing one__
+<p align="center">
+  <img src="images/DLL.JPG" />
+</p>
+
+After all the 3 steps are done, start EchoSight-Pro to check your result. You will see the final output as you expected.
+
+<p align="center">
+  <img src="images/revert.JPG" />
 </p>
 
 
@@ -232,6 +245,7 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
