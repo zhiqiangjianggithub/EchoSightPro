@@ -128,7 +128,7 @@ The target of EchoSight-Pro is NOT to provide output with strong hardware, but t
 ## 5. Research Interface ##
 
 Since version 0.5.1, a research interface module is added in for personalized academic research needs. The research module is provided with source codes together, you can do your personalized work through it.
-Through the interface you can work on the data at different stage, including IQ data after RTB, synthetic or gray scale image data.
+Through the interface you can work on the data at different stage.
 
 For example, if you want to “right half image gray scale value to be reverted”. You need the following 3 steps to make your job done.
 
@@ -154,7 +154,12 @@ After all the 3 steps are done, start EchoSight-Pro to check your result. You wi
 </p>
 
 
-## 5. Hardware Check ##
+What is more important, through research interface module, not only gray scale data can be modified, but also __IQ data after RTB or ater synthetic__  can be modified according to your needs as well.
+Also, as source codes for research module is provided, you can __debug__ on it as well.
+
+
+
+## 6. Hardware Check ##
 
 __Change hardware settings__
 
@@ -176,7 +181,8 @@ You can confirm your settings from command window information or your task manag
 
 
 
-## 6. Image Output ##
+
+## 7. Image Output ##
 
 Channel data is processed in EchoSight-Pro in real time, with beam formation, recursive transimit beamforming calculation, multiple line acquistion calculation, synthetic aperture processing all together. After all the steps(plus some basic post BF steps)the image output is generated.  
 
@@ -210,7 +216,7 @@ __Carotid image using vivo data__
 
 
 
-## 7. Down Load and Usage ##
+## 8. Down Load and Usage ##
 
 To get the full software package and use 
 
@@ -231,7 +237,7 @@ Highly suggest you refer the document in the software package __EchoSight-Pro Us
 
 
 
-## 8. Platform ##
+## 9. Platform ##
 
 The __EchoSightPro__ is aviable on windows platform only. 
 
@@ -240,17 +246,8 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 
 
 
-## 9. License and Version  ##
+## 10. License and Version  ##
 
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
-
-
-
-
-
-
-
-
-
