@@ -228,7 +228,7 @@ To get the full software package and use
 
 1. go to folder of the corresponding version(download the latest version is suggested)
 2. down load all the zip files(due to 24MB limits, package might divded into 2 or 3 files)
-3. unzip the *.zip file, you will get a folder named "EchoSightPro_version_X.X.X"
+3. unzip the *.7z file, you will get a folder named "EchoSightPro_version_X.X.X"
 4. click the Start EchoSight-Pro.bat file to run the EchoSight-Pro
 
 Most of version package contains data already, but some versions' package may not. 
@@ -257,4 +257,5 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
