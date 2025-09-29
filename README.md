@@ -252,10 +252,17 @@ PS: It is written by C++ (mostly ISO 20) and plused a simple OpenGL display, whi
 
 
 
-## 10. License and Version  ##
+## 10. Copyrights and Version  ##
 
 Attention, personalized license is on this software. Check license declare for details. But I make it brief here for guys. If it is for university study, academic research, lab research without any commercial purpose, no limits at all. For commercial purpose, prototype machine build, it can only be used for hardware evaluation and run independently. Trying to integrate to your product for bussiness purpose is __strictly forbidden__. 
 
+EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it is not a bug. I added it in, I think this will not affect normal usage.
+
+<p align="center">
+  <img src="images/pause.jpg" />
+</p>
+
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
