@@ -1,4 +1,4 @@
-__Latest version 0.5.1__
+__Latest version 0.6.0__
 
 # EchoSightPro #
 
@@ -263,6 +263,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
