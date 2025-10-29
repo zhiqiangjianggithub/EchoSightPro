@@ -220,6 +220,19 @@ __Carotid image using vivo data__
 </p>
 
 
+__Curve image using simulation data__
+
+
+<p align="center">
+  <img src="images/curve_simulation.jpg" />
+</p>
+
+
+__Curve image synthetic on/off comparsion__
+
+<p align="center">
+  <img src="images/curve_compare.gif" />
+</p>
 
 
 ## 8. Down Load and Usage ##
@@ -263,6 +276,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
