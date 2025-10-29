@@ -32,13 +32,10 @@ It achieves high quality commercial level, no matter from ultrasound theoritical
 ## 2. Predecessor EchoSight History ##
 Previously, I have developed its predecessor EchoSight, which has done already, but not opened for public usage. EchoSight is support real time software beam forming, including IQ beam forming, Recursive Transmit Beamforming, Synthetic beamforming, Multiple Line Acqusition beam forming, Steering scan already, and can work on CPU mode,  and GPU mode. 
 
-Old EchoSight real time running screen shot, plz check the images below(if U see any grid artifact, which caused by your browser display,  plz zoom in/out.)
+Old EchoSight real time running screen shot, plz check the images below
 
 <p align="center">
   <img src="images/echosight%20old%20linear%20steer.gif" />
-</p>
-<p align="center">
-  <img src="images//echosight%20old%20phase.jpg" />
 </p>
 
 If you have any intesests on its predecessor, you check the link below for previous development log
@@ -276,6 +273,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
