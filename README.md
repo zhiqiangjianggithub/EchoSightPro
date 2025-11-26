@@ -1,4 +1,4 @@
-__Latest version 0.6.0__
+__Latest version 0.7.0__
 
 # EchoSightPro #
 
@@ -82,11 +82,11 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.5.1 Data Rate Testing Summary(Unit: Giga Byte per Second)__
+__EchoSight-Pro v0.7.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
-  <img src="images/summary_0_5_1.JPG" />
+  <img src="images/0.7.0 summary.JPG" />
 </p>
 
 
@@ -232,6 +232,19 @@ __Curve image synthetic on/off comparsion__
 </p>
 
 
+__Phase image using simulation data__
+
+<p align="center">
+  <img src="images/phase_image.jpg" />
+</p>
+
+__Phase image synthetic on/off comparsion__
+
+<p align="center">
+  <img src="images/phase-comparison.gif" />
+</p>
+
+
 ## 8. Down Load and Usage ##
 
 To get the full software package and use 
@@ -273,6 +286,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
