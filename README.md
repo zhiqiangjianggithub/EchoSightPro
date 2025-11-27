@@ -1,5 +1,7 @@
 __Latest version 0.7.0__
 
+__CSDN release page__(https://blog.csdn.net/gamer_gerald/article/details/149256620?spm=1011.2415.3001.5331)
+
 # EchoSightPro #
 
 <p align="center">
@@ -286,6 +288,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
