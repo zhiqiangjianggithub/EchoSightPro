@@ -291,6 +291,10 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
 
+__version update history__
+<p align="center">
+  <img src="images/history.JPG" />
+</p>
 
 
 
