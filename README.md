@@ -1,4 +1,4 @@
-__Latest version 0.7.0__
+__Latest version 0.7.1__
 
 __CSDN release page__(https://blog.csdn.net/gamer_gerald/article/details/149256620?spm=1011.2415.3001.5331)
 
@@ -86,11 +86,11 @@ EchoSight-Pro provide 2 types of configuration:
 1. pure CPU setting;
 2. integrated GPU setting;
 
-__EchoSight-Pro v0.7.0 Data Rate Testing Summary(Unit: Giga Byte per Second)__
+__EchoSight-Pro v0.7.1 Data Rate Testing Summary(Unit: Giga Byte per Second)__
 
 
 <p align="center">
-  <img src="images/0.7.0 summary.JPG" />
+  <img src="images/0.7.1 summary.JPG" />
 </p>
 
 
@@ -290,6 +290,7 @@ EchoSight-Pro will pause from time to time(it will pause 1 sec every 20 sec), it
 </p>
 
 The version update is __random__, it is an interets based project developed completely on my own in my spare time.
+
 
 
 
